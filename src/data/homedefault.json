@@ -1,0 +1,147 @@
+[
+    {
+        "id": "main-banner",
+        "title": "Ayla <span class='color-primary'>Basha</span>",
+        "subtitle": "Full Stack Web Developer & Creative",
+        "bgImage": "./images/banner/bg-image-02.jpg",
+        "image": "./images/banner/person-image.jpg"
+    },
+
+    {
+        "id": "about",
+        "title": "Ayla Basha",
+        "subtitle": "Creative Web & App Developer",
+        "description": "My name is Ayla Basha. I’m a passionate software developer with the innovative and creative mindset of an entrepreneur.",
+        "description2": "I have experience building dynamic web applications in JavaScript, React, and HTML/CSS. Programming has been my outlet for problem-solving and creative expression. My background is in the music industry, fashion merchandising and digital marketing",
+        "downloadButton": "Download CV",
+        "linkBUtton": "Send Message",
+        "aboutData": [
+            {   
+                "id": "aboutinfo-1",
+                "iconName": "FiArrowRightCircle",
+                "label": "Birthday",
+                "value": "01.07.1990"
+            },
+            {
+                "id": "aboutinfo-2",
+                "iconName": "icon",
+                "label": "Age",
+                "value": "29"
+            },
+            {
+                "id": "aboutinfo-3",
+                "iconName": "icon",
+                "label": "Location",
+                "value": "San Diego, CA, USA"
+            },
+            {
+                "id": "aboutinfo-3",
+                "iconName": "icon",
+                "label": "Interests",
+                "value": "Music, DJing, Fashion, Travel, Photography"
+            },
+            {
+                "id": "aboutinfo-3",
+                "iconName": "icon",
+                "label": "Study",
+                "value": "App Academy"
+            },
+            {
+                "id": "aboutinfo-4",
+                "iconName": "icon",
+                "label": "Degree",
+                "value": "Certificate of Completion, JavaScript, React, Python, HTML/CSS"
+            },
+            {
+                "id": "aboutinfo-5",
+                "iconName": "icon",
+                "label": "Email",
+                "value": "aylabasha@gmail.com"
+            },
+            {
+                "id": "aboutinfo-6",
+                "iconName": "icon",
+                "label": "Phone",
+                "value": "760-580-9490"
+            }
+        ]
+    },
+
+    {
+        "id": "skill",
+        "title": "In a <span class='theme-color'>short time</span>, I have been able to achieve excellence in all areas of development.",
+        "description": "I provide cost-effective and high quality products to meet our Clients’ needs of timely We provide cost-effective and high quality products to meet our Clients’ needs of timely."
+    },
+    {
+        "id": "portfolio",
+        "title": "Featured Works",
+        "description": "In other words, the best marketing decision you can make is to have a product or business that fulfills a real and compelling need for a real and defined group of people — no matter how much tweaking and refining this takes.(c)"
+    },
+    {
+        "id": "chooseus",
+        "imagegroup": [
+            {
+                "image": "./images/others/why-1.jpg"
+            },
+            {
+                "image": "./images/others/why-2.jpg"
+            }
+        ]
+        
+    },
+
+    {
+        "id": "skillTwo",
+        "title": "My Skills in <span class='theme-color'>Years</span>",
+        "description": "When the past gets its teeth into our daily life, it may get to grips with an astringent reality and adjust our timeline. By recognizing ourselves in the light of our history, we become aware of what we are.(c)"
+    },
+    {
+        "id": "testimonial",
+        "title": "Steve Lehman",
+        "subtitle": "CEO of Hiday Motors.",
+        "description": "We were looking for a logo with a touch of modernism. Arlo grasped our needs and produced a stunning design. Awesome to work with Arlo. Incredibly organized, easy to communicate with, responsive with next iterations.",
+        "bgImage": "./images/banner/bg-image-03.jpg"
+    },
+    {
+        "id": "brand",
+        "brandGroup": [
+            {
+                "id": "brand-01",
+                "image": "./images/brand/1.png"
+            },
+            {
+                "id": "brand-02",
+                "image": "./images/brand/2.png"
+            },
+            {
+                "id": "brand-03",
+                "image": "./images/brand/3.png"
+            },
+            {
+                "id": "brand-04",
+                "image": "./images/brand/4.png"
+            },
+            {
+                "id": "brand-01",
+                "image": "./images/brand/5.png"
+            },
+            {
+                "id": "brand-02",
+                "image": "./images/brand/6.png"
+            },
+            {
+                "id": "brand-03",
+                "image": "./images/brand/3.png"
+            },
+            {
+                "id": "brand-04",
+                "image": "./images/brand/4.png"
+            }
+        ]
+    },
+    {
+        "id": "contactus",
+        "title": "Get in Touch",
+        "subtitle": "Crowds are the most difficult thing for me these days because I have to walk with my head down and my eyes averted. There's still that part of me that wants to hold my head up, make eye contact and smile. (c)"
+    }
+]
