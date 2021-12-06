@@ -13,11 +13,11 @@
     "features": [
         {
             "id": "feature-1",
-            "image": "./images/project-02.jpg"
+            "image": "./images/project-01-Artist-page.jpg"
         },
         {
             "id": "feature-2",
-            "image": "./images/project-03.jpg"
+            "image": "./images/project-01-Playlist-View.jpg"
         }
     ]
 }
