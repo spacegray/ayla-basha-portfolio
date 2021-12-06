@@ -5,7 +5,7 @@
     "client": "App Academy",
     "imgesBY": "Ayla Basha",
     "year": "2021",
-    "featured_image": "./images/project-02.jpg",
+    "featured_image": "./images/project-02-landing.jpg",
     "is_featured": true,
     "body": [
         "Want to find the answers to your pet questions and connect with others in the community? Visit PetOverflow."
@@ -17,6 +17,10 @@
         },
         {
             "id": "feature-2",
+            "image": "./images/project-02-question.jpg"
+        },
+         {
+            "id": "feature-3",
             "image": "./images/project-02-question.jpg"
         }
     ]
