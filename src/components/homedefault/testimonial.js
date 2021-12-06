@@ -95,13 +95,8 @@ const Testimonial = () => {
                             <FaQuoteRight />
                           </div>
                           <p>
-                            Good overall template. I am getting back into coding
-                            and had a simple question for the author. They
-                            responded within 30 minutes and answered my
-                            question. Highly recommend.Good overall template. I
-                            am getting back into coding and had a simple
-                            question for the author. They responded within 30
-                            minutes and answered my question. Highly recommend.
+                            Good overall service. I commissioned an app to be created
+                            and it has been a joy to work with her from start to finish. She listened to my ideas and created a working product to my standards. She was communicative throughout development, always addressing my concerns in a timely manner. Highly recommend her services.
                           </p>
                           <div className="client-info">
                             <div className="thumbnail">
