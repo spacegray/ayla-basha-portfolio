@@ -1,9 +1,9 @@
 [
     {
         "id" : "skill-1-1",
-        "number": "2005 - 2006",
-        "title": "Graphic Designer",
-        "description": "Photography is the art, application and practice of creating durable images by recording..."
+        "number": "2020-2021",
+        "title": "Full Stack Web Developer",
+        "description": "I've graduated App Academy with a certification in JavaScript, Python, and React. I've also worked with Django, Express, and PostgreSQL. I've also worked with HTML, CSS, and Bootstrap. I've also worked with Git, GitHub, and Heroku."
     },
     {
         "id" : "skill-1-2",
