@@ -29,7 +29,7 @@ const Banner = () => {
         }
     `);
       
-    // const BannerImages = banenrQueryData.homedefaultJson.bgImage.childImageSharp.fluid;
+    const BannerImages = banenrQueryData.homedefaultJson.bgImage.childImageSharp.fluid;
     const PortfolioImages = banenrQueryData.file.childImageSharp.fixed;
     const Title = banenrQueryData.homedefaultJson.title;
     const SubTitle = banenrQueryData.homedefaultJson.subtitle;

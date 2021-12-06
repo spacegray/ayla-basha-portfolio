@@ -3,6 +3,7 @@ import Img from "gatsby-image";
 import Image from "../elements/image";
 import { FiList, FiUser, FiInstagram } from "react-icons/fi";
 import Layout from "../components/layout";
+import { graphql } from "gatsby";
 
 const ProjectDetails = ({data}) => {
     const projectData = data.projectJson;
