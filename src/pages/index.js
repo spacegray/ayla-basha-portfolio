@@ -6,22 +6,22 @@ import About from "../components/homedefault/about";
 import Project from "../components/homedefault/project";
 import Testimonial from "../components/homedefault/testimonial";
 import Service from "../components/homedefault/service";
-import Brand from "../components/homedefault/brand";
-import BlogPost from "../components/blogPost";
+// import Brand from "../components/homedefault/brand";
+// import BlogPost from "../components/blogPost";
 import Contact from "../elements/contact/contact";
 
 const Index = () => (
   <Layout>
-    <SEO title="Waxon" />
+    <SEO title="Ayla Basha Portfolio" />
     <Banner />
     <About />
     <Service />
     <div className="portfolio-id" id="portfolio">
       <Project />
-      <Brand />
+      {/* <Brand /> */}
       <Testimonial />
     </div>
-    <BlogPost />
+    {/* <BlogPost /> */}
     <Contact />
   </Layout>
 )

@@ -80,13 +80,13 @@ const Header = () => {
                                             </a>
                                         </li>
 
-                                        <li>
+                                        {/* <li>
                                             <a className="menu-hover-link" href="/#news">
                                                 <span className="hover-item">
                                                     <span data-text="News">News</span>
                                                 </span>
                                             </a>
-                                        </li>
+                                        </li> */}
 
                                         <li>
                                             <a className="menu-hover-link" href="/#contact">

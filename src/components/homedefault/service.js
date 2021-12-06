@@ -18,7 +18,7 @@ const Service = () => {
                                     </div>
                                     <div className="content">
                                         <h4 className="title">Web Development</h4>
-                                        <p>Web design is a similar process of creation, with the intention of presenting...</p>
+                                        <p>Full Stack Development using React.js, JavaScript, Python, HTML, CSS, PostgreSQL and Flask</p> 
                                     </div>
                                 </div>
                             </div>
@@ -34,7 +34,7 @@ const Service = () => {
                                     </div>
                                     <div className="content">
                                         <h4 className="title">Creative Design</h4>
-                                        <p>Web design is a similar process of creation, with the intention of presenting...</p>
+                                        <p>Speak your vision and I'll create it using a responsive and unique design</p>
                                     </div>
                                 </div>
                             </div>
@@ -50,7 +50,7 @@ const Service = () => {
                                     </div>
                                     <div className="content">
                                         <h4 className="title">Brand Identity</h4>
-                                        <p>Web design is a similar process of creation, with the intention of presenting...</p>
+                                        <p>Your applications should match your brand's image. I always design with your brand in mind</p>
                                     </div>
                                 </div>
                             </div>
