@@ -46,11 +46,14 @@ const ContactForm = ({url}) => {
 		axios({
 			method: "post",
 			url: url,
-			data,
+			data: { ...data, _subject: `Portfolio inquiry: ${data.subject}`, _replyto: data.email },
             headers: { Accept: "application/json" },
             timeout: 15000
 		})
 			.then(res => {
+                if (!res.data || (res.data.success !== true && res.data.success !== "true")) {
+                    throw new Error("Submission was not accepted");
+                }
 				handleServerResponse(true, "Thank you! Your message has been submitted. I’ll get back to you soon.", form);
 			})
 			.catch(err => {

@@ -13,13 +13,18 @@ Find me on [LinkedIn](https://www.linkedin.com/in/aylabasha/)
 
 The map embeds San Diego at city level without a Maps JavaScript API key, with an external map link.
 
-The form still uses the original Getform endpoint in `gatsby-config.js`. Its destination inbox has not been verified. The requested recipient is `aylabasha@gmail.com`; the direct email fallback uses this address. Before deploying, verify or update the notification recipient in the existing Getform account, then submit a test and check inbox delivery. An HTTP success only confirms endpoint acceptance.
+The contact form routes through FormSubmit to `aylabasha@gmail.com`. The endpoint is in `gatsby-config.js` under `siteMetadata.getform_url` (the existing field name is retained for compatibility). Submissions include name, email, subject, and message; Reply-To uses the visitor's email.
 
-Manual checks:
+### One-time activation
+
+After deploying, submit the form once. Open the FormSubmit activation email sent to `aylabasha@gmail.com` and confirm the address (check spam if needed). Submit another message after activation and verify inbox delivery. The direct email link remains available.
+
+### Manual checks
+
 - Check the map on desktop and mobile, including its external link.
 - Check required fields and longer email suffixes such as `example.technology`.
 - Submit while offline; confirm the error appears and entered text remains.
 - Confirm the direct email link addresses `aylabasha@gmail.com`.
-- After verifying Getform routing, submit a test and confirm inbox receipt.
+- After activation, submit a test and confirm inbox receipt and Reply-To.
 
-No test message has been sent. A full Gatsby build has not been run.
+An accepted HTTP response does not prove inbox delivery. No test message has been sent and a full Gatsby build has not been run.
